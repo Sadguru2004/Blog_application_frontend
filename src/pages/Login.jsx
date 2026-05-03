@@ -25,7 +25,7 @@ const Login = ({ setIsLoggedIn }) => {
     if (!isValid) return; // prevent submission
 
     try {
-      const res = await axios.post("http://localhost:8080/auth/login", { email, password });
+      const res = await axios.post("https://blog-application-backend-1-mvva.onrender.com/auth/login", { email, password });
       const token = res.data.token;
       localStorage.setItem("token", token);
       localStorage.setItem("userId", res.data.userId);
