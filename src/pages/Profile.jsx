@@ -154,7 +154,7 @@ const Profile = () => {
               {/* ✅ NO NESTED LINK ISSUE */}
               <Link to={`/post/${post.postId}`}>
                 <img
-                  src={`http://localhost:8080/api/posts/image/${post.imageName}`}
+                  src={`https://blog-application-backend-1-mvva.onrender.com/api/posts/image/${post.imageName}`}
                   alt={post.title}
                   className="w-full h-48 object-cover"
                 />
