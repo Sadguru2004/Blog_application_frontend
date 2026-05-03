@@ -94,7 +94,7 @@ const PostDetail = () => {
 
       {/* Image */}
       <img
-        src={`http://localhost:8080/api/posts/image/${post.imageName}`}
+        src={`https://blog-application-backend-1-mvva.onrender.com/api/posts/image/${post.imageName}`}
         alt={post.title}
         className="w-full h-80 object-cover rounded-lg mb-6"
       />

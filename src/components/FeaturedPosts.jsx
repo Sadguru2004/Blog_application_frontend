@@ -22,7 +22,7 @@ const FeaturedPosts = () => {
             className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 block"
           >
             <img
-              src={`http://localhost:8080/api/posts/image/${post.imageName}`}
+              src={`https://blog-application-backend-1-mvva.onrender.com/api/posts/image/${post.imageName}`}
               alt={post.title}
               className="w-full h-80 object-cover"
             />
